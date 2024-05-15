@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jacquard+12&family=Jaro:opsz@6..72&display=swap');
+
+img{
+    height: 140px;
+    width: 114px;
+    left: 0px;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.heading{
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    line-height: 0.9;
+}
+
+.subheading{
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    
+}
+
+.p1{
+    font-family: "Bebas Neue";
+    text-align: center;
+    font-size: 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.p2{
+    font-family: "Bebas Neue";
+    text-align: center;
+    font-size: 40px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.p3{
+    font-family: "Bebas Neue";
+    text-align: center;
+    font-size: 90px;
+    line-height: 0.0;
+}
+
+
+
