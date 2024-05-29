@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black; 
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: ;
+    padding: 20px;
+    
+}
+
+.pokemon-card {
+    margin: 10px;
+    width: 20%;
+    flex-grow: 1;
+    
+    padding: 20px;
+    transition: background-image 0.3s ease, transform 0.3s ease;
+}
+
+.pokemon-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+#ball{
+    display: none;
+}
+
+.pokemon-card:hover img {
+    transform: scale(1.1);
+}
+
+h1{
+    display: none;
+}
+
+
+/* Responsive Design */
+@media (max-width: 720px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .pokemon-card{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        transition: background-image 0.3s ease, transform 0.3s ease;
+    }
+    .pokemon-card img {
+            width: 20%;
+            align-items: start;
+            transition: transform 0.3s ease;
+            
+    }
+    h1 {
+        display: block;
+        align-items: center;
+    }
+    #ball{
+        display: block;
+    }
+    .pokemon-card:hover {
+        background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c1cfff2-db8d-44cd-8a13-cb2a4162fae6/dd2zouo-047f7b3f-b895-43ac-82a4-abb6ca12c52a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMWNmZmYyLWRiOGQtNDRjZC04YTEzLWNiMmE0MTYyZmFlNlwvZGQyem91by0wNDdmN2IzZi1iODk1LTQzYWMtODJhNC1hYmI2Y2ExMmM1MmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EFI6YQ0acRLpYHzupMAxV_N4KMcpNWT-_3RJ4TV-4eU');
+        background-size: cover;
+        align-items: center;
+    }
+}
+
+@media (max-width: 510px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 75vw;
+    }
+
+    .pokemon-card{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        transition: background-image 0.3s ease, transform 0.3s ease;
+    }
+    .pokemon-card img { 
+            width: 40%;
+            align-items: center;
+            transition: transform 0.3s ease;
+            
+    }
+    h1 {
+        display: block;
+        align-items: center;
+    }
+    #ball{
+        display: none;
+    }
+    .pokemon-card:hover {
+        background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7c1cfff2-db8d-44cd-8a13-cb2a4162fae6/dd2zouo-047f7b3f-b895-43ac-82a4-abb6ca12c52a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjMWNmZmYyLWRiOGQtNDRjZC04YTEzLWNiMmE0MTYyZmFlNlwvZGQyem91by0wNDdmN2IzZi1iODk1LTQzYWMtODJhNC1hYmI2Y2ExMmM1MmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EFI6YQ0acRLpYHzupMAxV_N4KMcpNWT-_3RJ4TV-4eU');
+        background-size: cover;
+        align-items: center;
+    }
+}
+
+#box1{
+    background-color: #4ec87c;
+}
+#box2{
+    background-color: #e46214;
+}
+#box3{
+    background-color: #3291d5;
+}
+#box4{
+    background-color: #c18440;
+}
+#box5{
+    background-color: #e87ebd;
+}
+#box6{
+    background-color: #e0c092;
+}
+#box7{
+    background-color: #fbb217;
+}
+#box8{
+    background-color: #8d45df;
+}
+#box9{
+    background-color: #205a9d;
+}
+#box10{
+    background-color: #77d3e0;
+}
+#box11{
+    background-color: #dcd3b2;
+}
+#box12{
+    background-color: #e6b5a7;
+}
