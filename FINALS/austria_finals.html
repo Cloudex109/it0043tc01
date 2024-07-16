@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal portfolio</title>
+    <link rel="stylesheet" href="finalstyles.css">
+    <script src="https://kit.fontawesome.com/54d6b6eeaa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Kurt Larsen Austria</div>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="cloudex109.github.io/it0043tc01/FINALS/austria_finals#home">Home</a></li>
+                    <li><a href="cloudex109.github.io/it0043tc01/FINALS/austria_finals#about">About</a></li>
+                    <li><a href="cloudex109.github.io/it0043tc01/FINALS/austria_finals#services">Services</a></li>
+                    <li><a href="cloudex109.github.io/it0043tc01/FINALS/austria_finals#portfolio">Portfolio</a></li>
+                    <li><a href="cloudex109.github.io/it0043tc01/FINALS/austria_finals#contact">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<!-- home -->
+ <div class="home" id="home">
+    <div class="header-text">
+        <h1>Hi, i'm <span>Kurt</span></h1>
+
+        <h4>Welcome to my <span>Portfolio</span></h4>
+    </div>
+    <div class="home-img">
+            <img src="home.jpg" >
+    </div>
+ </div>
+<!-- ABOUT -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="aboutme.jpg" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a first-year IT student with a strong passion for technology and cybersecurity, aspiring to become a successful Cybersecurity Engineer. My fascination with the digital world and its intricacies drives me to delve deeper into understanding how systems work and how to protect them. Currently, I am building a solid foundation in computer science, programming, and network security through my studies. With a keen interest in safeguarding data and preventing cyber threats, I am dedicated to honing my skills and knowledge to excel in the ever-evolving field of cybersecurity.</p>
+
+                    <div class="tabtitles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>Java, C++</li>
+                            <li><span>Web design</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>App development</span><br>Scratch</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>College</span><br>Far Eastern University Institute of Technology</li>
+                            <li><span>Commissions</span><br>Modding for Minecraft</li>
+                            <li><span>Onsite jobs</span><br>Family owned workshop for heavy equipment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- SERVICES -->
+<div class="services" id="services">
+    <div class="container">
+        <h1 class="subtitle2">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Java</h2>
+                <p>I have a strong foundation in Java programming, allowing me to develop robust and scalable applications. With proficiency in object-oriented programming, I can create clean, efficient code for a variety of projects, ranging from simple desktop applications to complex enterprise solutions.</p>
+            </div>
+            <div>
+                <h2>C++</h2>
+                <p>My skills in C++ include expertise in system-level programming and memory management, making me adept at developing high-performance software. I am experienced in using C++ for creating efficient algorithms, data structures, and software that requires direct hardware manipulation or real-time processing.</p>
+                
+            </div>
+            <div>
+                <h2>Web Design</h2>
+                <p>In web design, I excel in creating visually appealing and user-friendly websites. Utilizing HTML, I structure content effectively, while CSS allows me to style and design web pages with precision. With JavaScript, I bring interactivity and dynamic functionality to websites, enhancing user experiences. My web design skills ensure that I can build responsive, modern websites that meet the needs of users and clients alike.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PORTFOLIO -->
+ <div class="portfolio" id="portfolio">
+    <div class="container">
+        <h1 class="subtitle2">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="TSA4.png">
+                <div class="layer">
+                    <h3>Technical 4</h3>
+                    <p>Pokemon cards</p>
+                    <a href="https://cloudex109.github.io/it0043tc01/Austria_tsa4.html" class="btn1"><i class="fa-brands fa-github"></i> Github</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="TSA5.png">
+                <div class="layer">
+                    <h3>Technical 5</h3>
+                    <p>Naruto Characters</p>
+                    <a href="https://cloudex109.github.io/it0043tc01/TSA5/austria_erum_tsa5.html" class="btn1"><i class="fa-brands fa-github"></i> Github</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="MIDTERM.png">
+                <div class="layer">
+                    <h3>Midterm</h3>
+                    <p>Flexible Cards</p>
+                    <a href="https://cloudex109.github.io/it0043tc01/austria_mpe.html" class="btn1"><i class="fa-brands fa-github"></i> Github</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="TSA7.png">
+                <div class="layer">
+                    <h3>Technical 7</h3>
+                    <p>Flexbox sim</p>
+                    <a href="https://cloudex109.github.io/it0043tc01/TSA7/austria_tsa7.html" class="btn1"><i class="fa-brands fa-github"></i> Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- CONTACT -->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>kurtlarsenaustria@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+639771738526</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/kuurt109/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/pukertaustria"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/kurt_109/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://discordapp.com/users/396710766918762517"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kurt Austria</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        function toggleMenu() {
+        var navLinks = document.querySelector('nav ul');
+        navLinks.classList.toggle('active');
+    }
+    </script>
+</body>
+</html>
